@@ -14,7 +14,7 @@ rows, cols = stdscr.getmaxyx()
 # Определение цветовых пар
 curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_BLACK)
 
-symbols = ['@', '#', '%', '*', '+', '=', '-', '_', ' ', '0', '1', 'Б', 'А', 'Ш', 'Т', 'О', 'В', 'Е', 'Н', 'К', 'О']
+symbols = ['@', '#', '%', '*', '+', '=', '-', '_', ' ', '0', '1', 'Б', 'А', 'Ш', 'Т', 'О', 'В', 'Е', 'Н', 'К', 'О', 'D', 'E', 'N', 'I', 'S', 'P', 'E', 'T', 'R', 'O', 'V', 'I', 'C', 'H']
 
 while True:
     x = random.randint(0, cols-1)
